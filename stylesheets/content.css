@@ -1,0 +1,26 @@
+.move-area{/*normally use body*/
+  width: 100vw;
+  height: 100vh;
+  padding: 10% 45%;
+}
+.container {
+  width: 100%;
+}
+.eye {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background: #C9CEFF;
+}
+.eye:after { /*pupil*/
+  position: absolute;
+  bottom: 17px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background: #0FC8FF ;
+  border-radius: 50%;
+  content: " ";
+}
