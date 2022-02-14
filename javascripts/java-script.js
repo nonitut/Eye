@@ -1,4 +1,8 @@
-//write here your js
+//write here your js\\
+
+
+
+
 $(document).ready(function(){
     $(".move-area").mousemove(function(event) {
       let eye = $(".eye");
@@ -14,3 +18,32 @@ $(document).ready(function(){
       });
     });
   })
+
+
+  $(document).mousemove(function(e) {
+    $('#cursor').css({
+      left:e.pageX - 10,
+      top:e.pageY - 10
+    });
+  });
+
+
+
+
+
+
+
+setInterval(function() {
+    	$('.tut').click(function(e){
+      let myArray = [
+        "Apples",
+        "Bananas",
+        "Pears"
+                      ];
+
+          let randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+$('.randome').text(randomItem);
+  });1000
+  });
+
+  //Math.random(); // возвращает случайное число
