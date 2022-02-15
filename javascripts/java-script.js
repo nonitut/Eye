@@ -38,8 +38,8 @@ setInterval(function() {
       let myArray = [
         "Apples",
         "Bananas",
-        "Pears"
-            "chery"
+        "Pears",
+        "chery"
                       ];
 
           let randomItem = myArray[Math.floor(Math.random()*myArray.length)];
